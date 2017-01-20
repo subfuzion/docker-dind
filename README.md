@@ -1,5 +1,5 @@
 Convenience image based on latest Docker in Docker with experimental flag set and
-a few network utilities (like dig and drill).
+a few network utilities (like iproute2, dig and drill).
 
 Why is this useful? Right now if you want to start dind with the experimental flag
 you have to explicitly supply it as follows:
