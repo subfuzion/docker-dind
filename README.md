@@ -1,3 +1,6 @@
+# dind
+
+[On Docker Hub](https://hub.docker.com/r/subfuzion/dind/). Cloned from [subfuzion/docker-dind](https://github.com/subfuzion/docker-dind).
 Convenience image based on latest Docker in Docker with experimental flag set and
 a few network utilities (like iproute2, dig and drill).
 
