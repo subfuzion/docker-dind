@@ -30,7 +30,7 @@ you have to explicitly supply it as follows:
 You can see from the last line that the daemon was started in experimental mode.
 With this image, however, experimental mode is the default:
 
-    $ docker run --detach --privileged --name=dind subfuzion:dind
+    $ docker run --detach --privileged --name=dind subfuzion/dind
 
 This image also adds a few convenient network tools, [iproute2](http://baturin.org/docs/iproute2/)
 [dig](https://linux.die.net/man/1/dig), and [drill](https://linux.die.net/man/1/drill) (from the [ldns project](https://www.nlnetlabs.nl/projects/ldns/)).
