@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t dind .
+docker build -t subfuzion/dind .
 
