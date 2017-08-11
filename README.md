@@ -11,21 +11,21 @@ you have to explicitly supply it as follows:
     $ docker exec -it dind sh
     / # docker version
     Client:
-     Version:      1.13.0
-     API version:  1.25
-     Go version:   go1.7.3
-     Git commit:   49bf474
-     Built:        Wed Jan 18 16:20:26 2017
-     OS/Arch:      linux/amd64
-
+    version:      17.07.0-ce-rc2
+    API version:  1.31
+    Go version:   go1.8.3
+    Git commit:   36ce605
+    Built:        Mon Aug  7 23:42:06 2017
+    OS/Arch:      linux/amd64
+    
     Server:
-     Version:      1.13.0
-     API version:  1.25 (minimum version 1.12)
-     Go version:   go1.7.3
-     Git commit:   49bf474
-     Built:        Wed Jan 18 16:20:26 2017
-     OS/Arch:      linux/amd64
-     Experimental: true
+    Version:      17.07.0-ce-rc2
+    API version:  1.31 (minimum version 1.12)
+    Go version:   go1.8.3
+    Git commit:   36ce605
+    Built:        Mon Aug  7 23:48:34 2017
+    OS/Arch:      linux/amd64
+    Experimental: true
 
 You can see from the last line that the daemon was started in experimental mode.
 With this image, however, experimental mode is the default:
@@ -34,7 +34,7 @@ With this image, however, experimental mode is the default:
     $ docker exec dind docker version
     ...
     Server:
-     Version:      1.13.0     Experimental: true
+     Version:      17.07.0-ce-rc2     Experimental: true
 
 This image also adds a few convenient network tools, [iproute2](http://baturin.org/docs/iproute2/)
 [dig](https://linux.die.net/man/1/dig), and [drill](https://linux.die.net/man/1/drill) (from the [ldns project](https://www.nlnetlabs.nl/projects/ldns/)).
